@@ -16,7 +16,6 @@ public class RNDeltaDNAPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNDeltaDNAModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
